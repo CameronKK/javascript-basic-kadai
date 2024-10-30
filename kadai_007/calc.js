@@ -1,4 +1,4 @@
-//変数numに1から100までの正の数を代入
+//変数numに1から100までの正の数をランダムに1つ代入
 let num = Math.floor(Math.random()*100) + 1;
 
 //numの値を表示
@@ -16,6 +16,7 @@ else if (num % 3 === 0){
 else if(num % 5 === 0){
     console.log('5の倍数です');
 }
+//上記以外の場合に変数numの値を表示
 else {
     console.log(num);
 }
